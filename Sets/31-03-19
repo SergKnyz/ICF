@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="31-03-19">
+  <slide_groups>
+    <slide_group name="Подули ветры разлились реки (упрощенно)" type="song" presentation="I V1 C V2 E " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Аллилуйя cлава Богу" type="song" presentation="I V C B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Раз я  к  Господу  воззвал" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Он живущий под покровом" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Не воинством не силою" type="song" presentation="V C" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Не бойся ибо Я с тобой" type="song" presentation="C V" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Ты моя слава" type="song" presentation="C V1 P V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Твоей славы полон дом" type="song" presentation="" path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

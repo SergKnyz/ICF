@@ -24,6 +24,7 @@
 .F       C         G7 (C)
  Имя Спасителя возносим!</lyrics>
   <ccli />
+  <tempo>Fast</tempo>
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
@@ -34,6 +35,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>136</bbm>
   <preferFlats>False</preferFlats>
 </song>
