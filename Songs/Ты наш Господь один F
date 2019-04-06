@@ -18,12 +18,11 @@
 [C]
 .      F         C
  Возвышаю, возвышаю,
-.     B C          F-Gm-F-B-C7
+.     B  C         F-Gm-F-B-C7
  Возвышаю Тебя,Господь!
 
 </lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -34,4 +33,5 @@
 
 </notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>
