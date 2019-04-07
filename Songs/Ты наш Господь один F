@@ -9,11 +9,11 @@
 . F          Gm     C7
  Ты, наш Господь, один
 .            F Dm
- над всей землёю.
+ Над всей землёю.
 .         Gm C7
  Ты вознесённый
 . B/C        F-B-F-Dm
- выше всех богов.
+ Выше всех богов.
 
 [C]
 .      F         C
@@ -23,6 +23,8 @@
 
 </lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -32,6 +34,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>90</bbm>
   <preferFlats>False</preferFlats>
 </song>
