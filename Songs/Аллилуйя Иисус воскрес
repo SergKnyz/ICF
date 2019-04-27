@@ -1,38 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
   <title>Аллилуйя Иисус воскрес</title>
-  <author />
-  <presentation>C V </presentation>
+  <author>"Часовня у Голгофы" г. Владимир</author>
+  <presentation>I C V </presentation>
   <capo>0</capo>
-  <key />
-  <lyrics>[C]
-. D (E)  E/A
+  <key>E</key>
+  <lyrics>[I]
+.D         G
  Аллилуйя, Иисус воскрес
-.E       E/A
+.D        G
  Аллилуйя, Он живой
-.E       E/A
+.D        G
  Аллилуйя, Он царит
-.E       E/A
+.D        G
+ Аллилуйя, Он господь.
+
+[C]
+.E        A
+ Аллилуйя, Иисус воскрес
+.E       A
+ Аллилуйя, Он живой
+.E       A
+ Аллилуйя, Он царит
+.E       A
  Аллилуйя, Он господь.
 
 [V]
-.C#m      H     A E/G# 
+.C#m      H     A E/G#
  Пред именем Иисуса
 .F#m  E/G#     A       H
  Преклонится всякое колено
-.H/E      H/F#        
+.H            C#m
  И всяк язык возвестит,
 .A                     H7
  Что Иисус Христос Господь!</lyrics>
   <ccli />
   <copyright />
   <hymn_number />
-  <notes>[C]
- 
+  <notes>[I]
+гитара
+клавиши 48 
+
+[C]
+подголоски 
 
 [V]
- 
-
+все 2 раза, 
+потом соло 
+вместо 1 части
 </notes>
   <bbm>100</bbm>
 </song>
