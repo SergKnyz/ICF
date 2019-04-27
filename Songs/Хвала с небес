@@ -61,6 +61,8 @@
 .               C__G
  Тебе лишь одному.</lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[I]
@@ -76,5 +78,5 @@
 [C3]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>90</bbm>
 </song>

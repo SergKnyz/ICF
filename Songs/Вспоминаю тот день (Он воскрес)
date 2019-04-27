@@ -63,6 +63,8 @@
 .        F#m__D__A__E         F#m__D__E          A 
  Он воскрес...        Он воскрес...      Он воскрес...</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -74,6 +76,6 @@
 [C2]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>66</bbm>
   <preferFlats>False</preferFlats>
 </song>

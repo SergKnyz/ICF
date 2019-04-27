@@ -44,6 +44,8 @@
 .   F#m         Hm     E7       A
  И ничего не могу сравнить с Тобой.</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -53,5 +55,5 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>74</bbm>
 </song>
