@@ -2,11 +2,14 @@
 <song>
   <title>Преданный решительный</title>
   <author />
-  <presentation>V1 C V2 </presentation>
+  <presentation>I V1 C V2 </presentation>
   <capo>0</capo>
   <key>F</key>
-  <lyrics>[V1]
-.  F    C/E    B/D-C7/E-F
+  <lyrics>[I]
+. F__C  B C__F  B  C  F
+
+[V1]
+.  F    C/E    B/D__C7/E__F
  Преданный, решительный,
 . B  F/A    Gm
  Верный всегда,
@@ -14,7 +17,7 @@
  Полный мудрости, Силы красоты,
 .   F/C     C7    F
  Иисус - любовь моя!
-.      Dm C/D      B/D-C/E-F
+.      Dm C/D      B/D__C/E__F
  Бесстрашный, Ты смелый,
 .  B           F/A     G7/H
  Праведен во всех Своих делах.
@@ -28,41 +31,38 @@
  И когда смотрю я на Тебя, Господь, прошу, молю
 .        F/A B   F/C   B      F/A   C7   Dm/Db Bm
  Силой благодати и любви моё сердце измени.
-.     F/C   C7   F    (бас:C-Db-D-Db 
- Мое сердце измени. 
+.     F/C   C7   F (Bm)   бас: C__Db__D__Db
+ Мое сердце измени.
 
 [V2]
-.    F C/E   B/D-C/E-F
- Терпимый, участливый,
+.      F C/E   B/D__C/E__F
+ Терпеливый, участливый,
 .B  F/A      Gm
  Любовь в Тебе полна,
 .         C    C/B       F/A B
  Ты не сдаешься, когда трудно,
 .   F/C     C     F
  Иисус - любовь моя!
-.  Dm   C/D    B/D-C/E-F
+.  Dm   C/D    B/D__C/E__F
  Святый и правдивый,
 .   B           F/A    G7/H
  Справедливый, верный судья.
 .           C7    C/B   F/A B
  Ты любишь милость и прощение.
 .   F/C     C7    F
- Иисус - любовь моя!
-
-</lyrics>
+ Иисус - любовь моя!</lyrics>
   <ccli />
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
-  <notes>[V1]
+  <notes>[I]
  
-
+[V1]
+ 
 [C]
  
-
 [V2]
  
-
 </notes>
   <bbm>70</bbm>
   <preferFlats>False</preferFlats>
