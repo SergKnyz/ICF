@@ -6,11 +6,11 @@
   <capo>0</capo>
   <key>F</key>
   <lyrics>[V1]
-.     F          Dm    C7
+.     F            Dm  C7
  Помоги, Господь, помоги.
-.     F         Dm    C7
+.     F          Dm   C7
  Укрепи дух мой, укрепи.
-.         B      C7      A7       Dm
+.         B      C7      A7/C#    Dm
  В мире зла с Тобой не боюсь ничего.
 .          Gm     C7          F
  В мире тьмы с Тобой мне светло.
@@ -30,12 +30,11 @@
  На сердца людей всей земли
 .      G        Em          D7
  Ты излей, Господь,свет любви.
-.         C      D7       H7     Em
+.         C      D7       H7/D#  Em
  В мире зла с Тобой будет им легко,
 .          Am    D         G
  В мире тьмы им будет светло.</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -49,4 +48,5 @@
 
 </notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>
