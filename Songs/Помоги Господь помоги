@@ -35,6 +35,7 @@
 .          Am    D         G
  В мире тьмы им будет светло.</lyrics>
   <ccli />
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -47,6 +48,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>70</bbm>
   <preferFlats>False</preferFlats>
 </song>
