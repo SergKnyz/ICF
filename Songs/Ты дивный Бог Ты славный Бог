@@ -38,6 +38,8 @@
 . Em      D        G-C
  Вера, надежда, любовь.</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -49,5 +51,5 @@
 [B]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>46</bbm>
 </song>
