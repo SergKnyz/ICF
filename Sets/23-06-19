@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="23-06-19">
+  <slide_groups>
+    <slide_group name="Честь и величье" type="song" presentation="V C B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Имя Иисуса" type="song" presentation="C V1 V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Бог мой и Царь" type="song" presentation="V C" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Иегова Ире все усмотрит" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Скрой меня" type="song" presentation="I V1 C V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>
