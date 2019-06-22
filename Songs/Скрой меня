@@ -6,31 +6,34 @@
   <capo>0</capo>
   <key>C</key>
   <lyrics>[I]
-.F Am C/G G7
+.F Am7 C/G Gsus G
 
 [V1]
-.   C  G/H Am   F    D7/F# G
+.   C  G/H Am7  F    D7/F# Gsus-G
  Скрой ме ня Своим кры    лом,
-. C/E  F      Dm        G
+. C    F      Dm7       Gsus-G
  сохрани под сильною рукой.
  
 
 [C]
-. C/G           F       G7     C
+.C/G            F       G7     F C
  Пусть бушует шторм и гром гремит.
-.     C         F      G     Am
+.     C         F      G     Am7
  Над бурей буду я с Тобой парить.
-.              F         G7     C
+.              F         G7     F C 
  Мой Отец, Ты Царь над всей землей.
-.G/H    F              G       F   (G)
+.G/H    F/A            G/H     F  
  Я не боюсь, ведь мой Бог со мной.
+.на повтор припева -           C
 
 [V2]
-.   C   G Am      F    D7/F# G
+.   C   G Am7     F    D7/F# Gsus-G
  Найду покой в Тебе, Хри   стос.
-. C/E F      Dm         G
+. C/E F      Dm7        Gsus-G
  Верю я в могущество Твоё.</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[I]
@@ -46,6 +49,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>70</bbm>
   <preferFlats>False</preferFlats>
 </song>
