@@ -4,39 +4,44 @@
   <author />
   <presentation>V C B</presentation>
   <capo>0</capo>
-  <key>D</key>
+  <key>G</key>
   <lyrics>[V]
-. D            Em7    A/C#     D
+. G            Am7    D/F#     G
  Хочу я быть ближе, ближе к Тебе
-. D          Em7          A/C#   Hm
+. G          Am7          D/F#   Em
  Пусть Небо реальностью станет моей
-. Hm       Em7    A/C#    D
+. Em       Am7    D/F#    G
  Хочу я услышать песни небес
-.D                     Em7
+.G            Am7
  Где ангелы вторят:
 
 [C]
-.A7   Hm               G
+.D7   Em               C
  Аллилуйя, Святый, Святый
-.      D           A7
+.      G           D7
  Всемогущий, Ты велик
-.        Hm            G
+.        Em            C
  Кто достоин? Кто сравнится
-.         D              A
+.         G              D
  С Тобою Царь наш? Ты велик!
+.C__C__D__Em
 
 [B]
-. Hm                                 G
+. Em                                 C
  Как воск растают горы перед лицом Его
-.G                                  D
+.C                                  G
  Силы тьмы трепещут перед Именем Того
-.D                                         A
+.G                                         D
  Кто вознесен над всеми, быв умершим, воскрес
-.A                                  Hm
+.D                                  Em
  Кто сможет устоять перед Его величием?
-.      G         D-A7
- Величием, величием...</lyrics>
+.      C         G-D7
+ Величием, величием...
+
+</lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -46,5 +51,5 @@
 [B]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>80</bbm>
 </song>

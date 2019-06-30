@@ -2,15 +2,15 @@
 <song>
   <title>Бесконечную милость</title>
   <author />
-  <presentation>V1 C B</presentation>
+  <presentation>V C B E</presentation>
   <capo>0</capo>
   <key>D</key>
-  <lyrics>[V1]
+  <lyrics>[V]
 . D           G           A7
  Бесконечную милость мне даришь,
 . D               G    A7
  Жизнь Свою за меня отдал.
-. D             G        A7Hm
+. D             G        A7  Hm
  Сердцем знаю Твою доброту,
 .    G            A7
  Ты верный навсегда.
@@ -34,24 +34,23 @@
  Мне жизнь возвращаешь опять.
 .     F#m         Hm     A          D
  Мне жизнь возвращаешь опять... и опять.
- 
- 
 
-</lyrics>
+[E]
+.    G    A     D
+ И опять    И опять</lyrics>
   <ccli>163</ccli>
   <tempo>Fast</tempo>
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
-  <notes>[V1]
+  <notes>[V]
  
-
-[С]
+[C]
  
-
 [B]
  
-
+[E]
+ 
 </notes>
   <bbm>142</bbm>
   <preferFlats>False</preferFlats>

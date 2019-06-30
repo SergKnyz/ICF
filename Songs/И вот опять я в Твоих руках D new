@@ -49,8 +49,8 @@
 .     Dsus D-D/C#     Em7/H   Asus-A7
  Поклоняюсь,    поклоняюсь я.</lyrics>
   <ccli />
-  <tempo />
-  <time_sig />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[I]
@@ -69,7 +69,7 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>64</bbm>
   <aka>
   </aka>
   <key_line>
