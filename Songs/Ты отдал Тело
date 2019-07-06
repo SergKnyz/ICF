@@ -32,9 +32,13 @@
  Ты пролил Кровь за нас!
  
 [B]
-.F  F7               B-Bm F   
+.F  F7               B
+ Излей Кровь Иисуса на меня.
+.   Bm               F   
  Излей Кровь Иисуса на меня.</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -47,6 +51,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>66</bbm>
   <preferFlats>False</preferFlats>
 </song>

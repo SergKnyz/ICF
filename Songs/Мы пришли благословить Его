@@ -29,6 +29,7 @@
 .         Gm           A7
          Мой святой залог!</lyrics>
   <ccli />
+  <tempo>Fast</tempo>
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
@@ -39,5 +40,5 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>140</bbm>
 </song>
