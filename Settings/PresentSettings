@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <present_settings version="1.1">
-  <style blanks="true" border="true" initial_mode="N" shadow="true" thickness="2" transition="true" blank_uses_next="true" exit_prompt="false" transition_frames="5" transition_time="100" mouse_cursor="arrow"/>
+  <style blanks="true" border="true" initial_mode="N" shadow="true" thickness="2" transition="true" blank_uses_next="true" exit_prompt="false" transition_frames="5" transition_time="100" mouse_cursor="arrow" exit_doubleclick="false"/>
   <default_style index="default_style">
   <title enabled="true" valign="bottom" align="center" include_verse="false" margin-left="0" margin-right="0" margin-top="0" margin-bottom="0" font="Helvetica" size="26" bold="true" italic="true" underline="false" color="#FFFFFF" border="true" border_color="#000000" shadow="true" shadow_color="#000000" fill="false" fill_color="#000000"/>
   <subtitle enabled="true" valign="bottom" align="center" descriptive="false" margin-left="0" margin-right="0" margin-top="0" margin-bottom="0" font="Helvetica" size="18" bold="true" italic="true" underline="false" color="#FFFFFF" border="true" border_color="#000000" shadow="true" shadow_color="#000000" fill="false" fill_color="#000000"/>

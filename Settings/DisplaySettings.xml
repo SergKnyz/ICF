@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DisplayAndPrintSettings>
   <settingsType>DisplaySettings</settingsType>
-  <ShowNotes>true</ShowNotes>
-  <ShowChords>true</ShowChords>
+  <ShowNotes>false</ShowNotes>
+  <ShowChords>false</ShowChords>
   <ShowLyrics>true</ShowLyrics>
   <SongOrientation>Вертикально</SongOrientation>
   <BackgroundColorHex>#FFFFFF</BackgroundColorHex>
