@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
-  <title>Ты – любовь и счастье</title>
+  <title>Ты любовь и счастье</title>
   <author />
   <presentation>V1 C V2 B </presentation>
   <capo>0</capo>
@@ -41,6 +41,7 @@
 .             B - C7
  Петь хочу Тебе я ...</lyrics>
   <ccli />
+  <tempo>Fast</tempo>
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
