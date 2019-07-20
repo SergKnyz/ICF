@@ -17,7 +17,7 @@
  
 
 [C]
-.G         D  H7      Em
+.G         D  H7  Em
  В Тебе я нуждаюсь и люблю Тебя.
 .   C              D7
  Навеки будь со мной.
@@ -30,6 +30,8 @@
 
 </lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -39,5 +41,5 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>70</bbm>
 </song>

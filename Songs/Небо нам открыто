@@ -26,6 +26,8 @@
 . B        C7       B  F (C7)  
  Господь дает благодать.</lyrics>
   <ccli />
+  <tempo>Fast</tempo>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -35,5 +37,5 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>160</bbm>
 </song>
