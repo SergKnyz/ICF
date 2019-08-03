@@ -47,6 +47,7 @@
 .  Am/C          Hsus-H7   
  Провозглашай и пой.</lyrics>
   <ccli />
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[C]
@@ -56,6 +57,6 @@
 [V2]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>110</bbm>
   <preferFlats>False</preferFlats>
 </song>

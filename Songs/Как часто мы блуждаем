@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
   <title>Как часто мы блуждаем</title>
-  <author />
+  <author>Ятковский</author>
   <presentation>I V1 C V2</presentation>
   <capo>0</capo>
   <key>C</key>
@@ -25,9 +25,9 @@
  Я больше не хочу грешить, прости меня (прости меня)»
 .           F        G7                C         Am
  Приди к Иисусу и поверь, что жизнь изменится теперь
-.          Dm            G7          C  (1-G7, 2-C7, 3-Am)
+.          Dm            G7          C  
  И что святая Кровь Христа спасет тебя.
- 
+.                                (1-G7, 2-C7, 3-Am)
  
 
 [V2]
@@ -43,7 +43,6 @@
 
 </lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
   <notes>[I]
@@ -57,4 +56,5 @@
 
 </notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>
