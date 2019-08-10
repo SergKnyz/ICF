@@ -32,6 +32,8 @@
 . C7
  Ты – любовь моя.</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -41,6 +43,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>70</bbm>
   <preferFlats>False</preferFlats>
 </song>

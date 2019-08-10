@@ -2,7 +2,7 @@
 <song>
   <title>Только Ты один</title>
   <author />
-  <presentation>V1 V2 C V3 </presentation>
+  <presentation>V1 V2 B V3 </presentation>
   <capo>0</capo>
   <key>F</key>
   <lyrics>[V1]
@@ -25,7 +25,7 @@
 .F/C    C7   F
  Агнца Божьего.
 
-[C]
+[B]
 . Dm       B         C      Dm
  Милость Твоя как река широка
 .   Gm      C7          F
@@ -45,6 +45,7 @@
 .F/C C7   F
  Я иду домой.</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
