@@ -2,10 +2,10 @@
 <song>
   <title>Мы любим славить</title>
   <author />
-  <presentation>V1  C</presentation>
+  <presentation>V  C</presentation>
   <capo>0</capo>
   <key>D</key>
-  <lyrics>[V1]
+  <lyrics>[V]
 . D         A7
  Мы любим славить
 . A7        D
@@ -23,11 +23,11 @@
 .              A7 
  Превозносим Тебя!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
-  <notes>[V1]
+  <notes>[V]
  
 [C]</notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>

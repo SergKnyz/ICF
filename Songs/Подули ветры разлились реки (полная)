@@ -2,7 +2,7 @@
 <song>
   <title>Подули ветры разлились реки (полная)</title>
   <author />
-  <presentation>I V1 C V2 E </presentation>
+  <presentation>I V1 C1 V2 C2 E </presentation>
   <capo>0</capo>
   <key>Cm</key>
   <lyrics>[I]
@@ -18,7 +18,7 @@
 .   Ab       Ebsus   Fm        Cm/G-G7   Bm-Bdim
  Сквозь расстояния Твой слышу голос.
 
-[C]
+[C1]
 .  F                Am     F     Dm             Am
  Свет Твоей зари я вижу, звук Твоих шагов все ближе.
 .Gm     F/A        B                  F/C      C
@@ -67,6 +67,8 @@
 
 [V2]
  
+
+[C2]
 
 [E]
  

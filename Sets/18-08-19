@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="18-08-19">
+  <slide_groups>
+    <slide_group name="Аллилуйя слава Святой святых" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Мы любим славить" type="song" presentation="V1  C" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Бог моя скала" type="song" presentation="V C" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="В любви не дай остыть" type="song" presentation="V1 С V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Святый Святый Ты достоин" type="song" presentation="V1 V2 C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Я хочу исполнить волю Твою" type="song" presentation="V1 PC C B" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Иисус Пастырь мой" type="song" presentation="V1 V2 B" path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

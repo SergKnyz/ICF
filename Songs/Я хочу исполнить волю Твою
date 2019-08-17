@@ -2,10 +2,10 @@
 <song>
   <title>Я хочу исполнить волю Твою</title>
   <author />
-  <presentation>V1 PC C B</presentation>
+  <presentation>V PC C B</presentation>
   <capo>0</capo>
   <key>Cm</key>
-  <lyrics>[V1]
+  <lyrics>[V]
 .Cm                Ab7+
  Я хочу исполнить волю Твою,
 .    Fm           G7
@@ -35,10 +35,9 @@
 .  Ab7+
  Очисти нас, очисти нас!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
-  <notes>[V1]
+  <notes>[V]
  
 [PC]
 
@@ -46,4 +45,5 @@
 
 [B]</notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>

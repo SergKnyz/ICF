@@ -2,7 +2,7 @@
 <song>
   <title>Иисус Пастырь мой</title>
   <author />
-  <presentation>V1 V2 B</presentation>
+  <presentation>V1 C1 V2 C2 B</presentation>
   <capo>0</capo>
   <key>E</key>
   <lyrics>[V1]
@@ -14,6 +14,8 @@
  За Тобой я  иду,
 .Esus  E   Esus H7
  Оставляя суету.
+
+[C1]
 .        A7+    H7     E
  Быть хочу всегда с Тобой,
 .         A      H7     E
@@ -32,6 +34,8 @@
  Помоги исполнить мне
 .  Esus E    Esus  H7
  Твою  волю на земле
+
+[C2]
 .     A7+   H7         E
  Я хочу познать путь Твой
 .       A   H7     E
@@ -40,19 +44,23 @@
  Мою веру укрепи
 .      A     H7   E
  За собой меня веди.
+
 [B]
 .E  H7  E      H7   E
  Аллилуйя, люблю Тебя!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
   <notes>[V1]
  
-
+[C1]
+ 
 [V2]
  
-
-[B]</notes>
+[C2]
+ 
+[B]
+</notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>
