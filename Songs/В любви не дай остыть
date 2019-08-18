@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
   <title>В любви не дай остыть</title>
-  <author />
-  <presentation>V1 С V2 </presentation>
+  <author>Brian Doerksen</author>
+  <presentation>V1 C V2 </presentation>
   <capo>0</capo>
   <key>D</key>
   <lyrics>[V1]
@@ -15,14 +15,14 @@
 .    Em        G                D
  Взываю я, зажги огонь во мне вновь
 
-[С]
-.   Em            Hm                      A7
+[C]
+.    Em            Hm                      A7
  Пришёл за золотом я, что Ты очистил во огне,
 . G            D             A7
  Беден и наг, дай же мне Господь,
 .          C-G           A7     G
  Одежды Твои чтоб не стыдился я
-.           D       A-Em-G  A-Em-G
+.           D       A-Em-G  D--A--Em--G
  Наполни огнём меня
 
 [V2]
@@ -35,12 +35,14 @@
 .    Em        G                D
  Взываю я, зажги огонь во мне вновь</lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
  
 
-[С]
+[C]
  
 
 [V2]

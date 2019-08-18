@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
   <title>Иисус Пастырь мой</title>
-  <author />
+  <author>Ятковский</author>
   <presentation>V1 C1 V2 C2 B</presentation>
   <capo>0</capo>
   <key>E</key>
@@ -49,6 +49,8 @@
 .E  H7  E      H7   E
  Аллилуйя, люблю Тебя!</lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -61,6 +63,6 @@
  
 [B]
 </notes>
-  <bbm>100</bbm>
+  <bbm>80</bbm>
   <preferFlats>False</preferFlats>
 </song>

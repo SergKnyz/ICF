@@ -22,7 +22,7 @@
  Куда мне идти и как мне жить,
 .           Fm/D      G7
  Прошу, научи меня любить,
-.            Cm (Csus) C7
+.            Cm (1: G7)(2: Csus--C7)
  Как любишь Ты.
 
 [C]
@@ -32,9 +32,11 @@
  Не дай мне сойти с Твоих путей.
 
 [B]
-.  Ab7+
+.  Ab7+                 (G7)
  Очисти нас, очисти нас!</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -44,6 +46,6 @@
 [C]
 
 [B]</notes>
-  <bbm>100</bbm>
+  <bbm>56</bbm>
   <preferFlats>False</preferFlats>
 </song>

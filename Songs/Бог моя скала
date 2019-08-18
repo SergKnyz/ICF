@@ -29,6 +29,8 @@
 .  A7      D
  Скала спасения!</lyrics>
   <ccli />
+  <tempo>Fast</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -36,6 +38,6 @@
 [C]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>140</bbm>
   <preferFlats>False</preferFlats>
 </song>
