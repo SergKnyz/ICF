@@ -46,7 +46,7 @@
  Всемогущий...</lyrics>
   <ccli />
   <tempo>Moderate</tempo>
-  <time_sig>3/8</time_sig>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -59,6 +59,6 @@
  
 
 </notes>
-  <bbm>96</bbm>
+  <bbm>60</bbm>
   <preferFlats>False</preferFlats>
 </song>

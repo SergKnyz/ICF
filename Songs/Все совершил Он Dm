@@ -31,9 +31,8 @@
 
  </lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <tempo />
-  <time_sig />
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -41,5 +40,6 @@
 [C]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>120</bbm>
+  <preferFlats>False</preferFlats>
 </song>
