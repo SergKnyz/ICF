@@ -2,10 +2,10 @@
 <song>
   <title>Превозноси Творца хвалой</title>
   <author />
-  <presentation>V C </presentation>
+  <presentation>V1 C1 V2 C2 </presentation>
   <capo>0</capo>
-  <key>F</key>
-  <lyrics>[V]
+  <key>G</key>
+  <lyrics>[V1]
 .    F    Am           Gm7-C7
  Превозноси Творца хвалой.
 .   F      Am         B-C7
@@ -19,21 +19,39 @@
 .     B    C7   F
  Имя Господа вовек!
 
-[C]
-.  F      Eb     B     C F
+[C1]
+.  F      Eb     B     C F (D7)
  Осанна Осанна Осанна Царю!
 
-</lyrics>
+[V2]
+.    G    Hm           Am7-D7
+ Превозноси Творца хвалой.
+.   G      Hm         C-D7
+ Царю воскресшему воспой.
+.    G          D7
+ О, величай и прославляй,
+.       C    Am   D7
+ Он достоин похвалы!
+.    G          D
+ О, величай и прославляй
+.     C    D7   G
+ Имя Господа вовек!
+
+[C2]
+.  G      F      C     D G
+ Осанна Осанна Осанна Царю!</lyrics>
   <ccli />
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
-  <notes>[V]
+  <notes>[V1]
  
-
-[C]
+[C1]
  
-
+[V2]
+ 
+[C2]
+ 
 </notes>
   <bbm>70</bbm>
 </song>
