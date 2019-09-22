@@ -29,7 +29,7 @@
 .            C9
  Начало и конец, Начало и конец.
 .    G                 Em7
- Господь наш триедин: Дух, Отец и Сын
+ Господь наш Триедин: Дух, Отец и Сын
 .            C9
  Агнец Он и Лев, Агнец Он и Лев.
 
@@ -43,7 +43,6 @@
  
 </lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -56,4 +55,5 @@
  
 </notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>
