@@ -4,45 +4,47 @@
   <author>Chris Tomlin</author>
   <presentation>V1 C V2 B</presentation>
   <capo>0</capo>
-  <key>G</key>
+  <key>A</key>
   <lyrics>[V1]
-.    G           Em7
+.    A           Gbm7
  В сиянии Царя блеск величия
-.                  C9
+.                  D9
  Пусть вся земля поёт, в радости поёт
-.       G                   Em7
+.       A                   Gbm7
  Он в свет одел Себя и в страхе меркнет тьма
-.            C9
+.            D9
  От голоса Его, от голоса Его.
 
 [C]
-.     G              D/F#
+.     A              E/Ab
  Наш Бог так велик, пой со мной
-.     Em7            D            C9
+.     Gbm7           E            D9
  Наш Бог так велик, пусть видят все
-.     D         G
+.     E         A
  Наш Бог так велик!
 
 [V2]
-.    G                      Em7
+.    A                      Gbm7
  Наш Царь стоит века, все дни в Его руках
-.            C9
+.            D9
  Начало и конец, Начало и конец.
-.    G                 Em7
+.    A                 Gbm7
  Господь наш Триедин: Дух, Отец и Сын
-.            C9
+.            D9
  Агнец Он и Лев, Агнец Он и Лев.
 
 [B]
-.       G
+.       A
  Он превыше всех имён
-.  D/F#   Em7
+.  E/Ab   Gbm7
  Всей хвалы достоин Он!
-.   C9           D         G
+.   D9           E         A
  Душа поёт: Наш Бог так велик!
  
+
 </lyrics>
   <ccli />
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -54,6 +56,6 @@
 [B]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>80</bbm>
   <preferFlats>False</preferFlats>
 </song>
