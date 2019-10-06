@@ -6,11 +6,11 @@
   <capo>0</capo>
   <key>D</key>
   <lyrics>[V]
-.D      D-Em         D/F#
+.D    A D    Em      D/F#  D7
  Мы славим, поём хвалу,
-.       G         A7         D G-A
+.       G         A7         D 
  Превозносим Твоё Имя выше всех.
-. G   A D            D/F#
+. G   A D    Em      D/F#  D7
  Мы славим, поём хвалу.
  
 
@@ -21,10 +21,13 @@
  Господь господ, Иисус,
 .       H7         Em
  Нам навеки дал победу,
-.      A7          D              D7
- И нигде на свете нет таких, как Ты.
-.coda: ...         G     A        D</lyrics>
+.      A7          
+ И нигде на свете
+. D              D7  (1)
+ Нет таких, как Ты.
+. G     A        D   (2)</lyrics>
   <ccli />
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -34,5 +37,5 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>66</bbm>
 </song>

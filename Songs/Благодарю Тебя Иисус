@@ -2,19 +2,19 @@
 <song>
   <title>Благодарю Тебя Иисус</title>
   <author />
-  <presentation />
+  <presentation>V  C</presentation>
   <capo>0</capo>
   <key>D</key>
   <lyrics>[V]
-.    D   A/C# Hm 
+.    D   A/C# Hm
  Благодарю Тебя, Иисус,
 .  Em    D    Asus  A
- Благодарю Тебя, Иисус,	
-.    D   F#7  Hm  
+ Благодарю Тебя, Иисус,
+.    D   F#7  Hm
  Благодарю Тебя, Иисус.
 .  G          D
- Просто я благодарю, 
-.  Em         D/A A7
+ Просто я благодарю,
+.  Em        D/A  A7  D
  Просто я благодарю.
 
 [C]
@@ -22,14 +22,20 @@
  За Голгофу, за кровь
 .G    D         A7
  Я Тебя благодарю,
-. D        A7      Hm G
- За воскресенье Твоё 
-.      A7     D 
- За победу Твою.
-</lyrics>
+. D        A7      Hm  G
+ За воскресенье Твоё
+.      A7     D  (Hm)
+ За победу Твою.</lyrics>
   <ccli />
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
-  <notes />
-  <bbm>100</bbm>
+  <notes>[V]
+ 
+
+[C]
+ 
+
+</notes>
+  <bbm>66</bbm>
 </song>

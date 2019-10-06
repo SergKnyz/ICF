@@ -19,7 +19,7 @@
  Освободитель, вечно живой.
 </lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <time_sig>12/8</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -29,5 +29,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>60</bbm>
+  <preferFlats>False</preferFlats>
 </song>
