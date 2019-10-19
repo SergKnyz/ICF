@@ -2,18 +2,15 @@
 <song>
   <title>Кто тьму разрушил</title>
   <author />
-  <presentation>I V1 C V2 B </presentation>
+  <presentation>V1 C V2 B </presentation>
   <capo>0</capo>
   <key>G</key>
-  <lyrics>[I]
-. G-C / G-C /
-
-[V1]
+  <lyrics>[V1]
 .G
  Кто тьму разрушил, греха проклятье?
 .C
  Кто любит вечно, Кто не оставит?
-.Em                  D                  
+.Em                  D                  C       
  Господь, Царь славы и Царь для всех царей.
 .G
  Кто громом славы мир сотрясает
@@ -60,10 +57,9 @@
   <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
-  <notes>[I]
- 
-[V1]
- 
+  <notes>[V1]
+вступление:
+G-C /2раза
 [C]
  
 [V2]
