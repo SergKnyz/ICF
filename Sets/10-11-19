@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="10-11-19">
+  <slide_groups>
+    <slide_group name="Прославь Иисуса прославь Господа" type="song" presentation="I V1 C1 V2 C2 V3 C3 E" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Иисус с того момента" type="song" presentation="V1 C V2 V3" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Зажигай огонь" type="song" presentation="C V1 V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Знаю я есть Бог" type="song" presentation="V1 PC C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Только Бог меня поднимет" type="song" presentation="V1 C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Иисус Ты любовь моя" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Бог моя сила Тебе я пою" type="song" presentation="C V1 V2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

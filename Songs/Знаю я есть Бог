@@ -19,7 +19,7 @@
 .             Hm
  Везде и всегда!
 
-[PC]
+[P]
 .Em
  Он любит радовать меня,
 .C
@@ -49,7 +49,6 @@
 . G      D        C
  На небе и на земле!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -63,4 +62,5 @@
 
 </notes>
   <bbm>100</bbm>
+  <preferFlats>False</preferFlats>
 </song>
