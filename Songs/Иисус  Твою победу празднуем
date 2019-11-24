@@ -35,7 +35,8 @@
 .       B                  Csus C
  В сердцах звучит любви ответ!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <tempo>Fast</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[C]
@@ -45,5 +46,6 @@
 [V2]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>140</bbm>
+  <preferFlats>False</preferFlats>
 </song>

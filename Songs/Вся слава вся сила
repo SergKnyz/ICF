@@ -23,6 +23,8 @@
 .   Dm B C
  Огнем   //</lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -30,6 +32,6 @@
 [V2]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>70</bbm>
   <preferFlats>False</preferFlats>
 </song>
