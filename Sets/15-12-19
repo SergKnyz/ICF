@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="15-12-19">
+  <slide_groups>
+    <slide_group name="Ликуйте небеса" type="song" presentation="V1 C1 C2 C3" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Аллилуйя cлава Богу" type="song" presentation="I V C B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Благо есть славить Господа Dm" type="song" presentation="V1 C1 V2 V3 C2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Бог  моя надежда D" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Моя надежда Ты мой Бог" type="song" presentation="V1 P C1 C2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Надейся  на  Господа" type="song" presentation="V1 C1 V2 C2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>
