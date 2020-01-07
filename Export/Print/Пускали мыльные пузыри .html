@@ -1,0 +1,520 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        var previousPages = [];
+
+        function scrollSmoothTo(to, duration) {
+            if (duration <= 0) return;
+            var currentPosition = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop); 
+            var difference = to - currentPosition;
+            var perTick = difference / duration * 10;
+
+            //we want to repaint the screen after we are done scrolling
+            if (currentPosition === to - perTick || currentPosition === to + perTick) {
+                window.scroll(0, to-1);
+                paintAllElementsWithCss();
+                return;
+            }
+
+            setTimeout(function () {
+                var newPosition = currentPosition + perTick;
+                window.scroll(0, newPosition);
+
+                scrollSmoothTo(to, duration - 10);
+            }, 10);
+        }
+
+
+         //is element completely visible
+         function isElementInViewport(el) {
+             var rect = el.getBoundingClientRect();
+
+             return (
+                 rect.top >= 0 &&
+                 rect.left >= 0 &&
+                 rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+                 rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+             );
+        }
+
+         function getMaxSongElementIndex() {
+             var counter = 1;
+             while (true) {
+                 var elementToCheck = document.getElementById('SongElement' + counter);
+                 if (elementToCheck == null)
+                     return counter - 1;
+                 counter++;
+             }
+         }
+
+         //check if songelement full visible on the screen
+         function isSongElementCompletelyVisible(index) {
+             var elementToCheck = document.getElementById('SongElement' + index);
+             var isVisible = isElementInViewport(elementToCheck);
+             return isVisible
+         }
+
+         //check if songelement fully invisible
+         function isSongElementCompletelyInvisible(index) {
+             return !isSongElementCompletelyVisible(index);
+         }
+
+         //index of the first element in the song that is visible on the screen
+         function getFirstVisibleSongElementIndex() {
+             var maxSongElementCount = getMaxSongElementIndex();
+             for (i = 1; i <= maxSongElementCount; i++) {
+                 if (isSongElementCompletelyVisible(i))
+                     return i;
+             }
+         }
+
+         function findFirstOffScreenElementIndex() {
+             var maxSongElementCount = getMaxSongElementIndex();
+             var indexOfFirstVisibleElement = getFirstVisibleSongElementIndex();
+             for (i = indexOfFirstVisibleElement; i <= maxSongElementCount; i++) {
+                 if (isSongElementCompletelyVisible(i) == false)
+                     return i;
+
+             }
+         }
+
+         //scroll to song element in index
+         function smoothScrollToElement(index) {
+             var yPos = document.getElementById('SongElement' + index).offsetTop;
+             scrollSmoothTo(yPos, 400);
+         }
+
+         //scroll to element
+         function scrollToElement(index) {
+             var yPos = document.getElementById('SongElement' + index).offsetTop;
+             window.scroll(0, yPos);
+         }
+
+         //paint all elements with different css
+         function paintAllElementsWithCss() {
+
+             var maxSongElementCount = getMaxSongElementIndex();
+             for (i = 1; i <= maxSongElementCount; i++) {
+                 var element = document.getElementById("SongElement" + i);
+
+                 if (element.className != "DisplaySongName") {
+                     if (isSongElementCompletelyVisible(i))
+                         element.setAttribute("class", "DisplaySongVerse");
+                     else
+                         element.setAttribute("class", "DisplaySongVerseOffPage");
+                 }
+             }
+
+         }
+
+         //scroll down by one screen
+         function scrollDown() {
+             var firstOffScreenElementIndex = findFirstOffScreenElementIndex();
+             var firstElementIndex = getFirstVisibleSongElementIndex();
+             if (firstElementIndex != null) {
+                 previousPages.push(firstElementIndex);
+             }
+             if (firstOffScreenElementIndex != null) {
+                 smoothScrollToElement(firstOffScreenElementIndex);
+             }
+         }
+
+         //scroll up by one screen
+         function scrollUp() {
+             var previousPageIndex = previousPages.pop();
+             if (previousPageIndex != null)
+                 smoothScrollToElement(previousPageIndex)
+             else 
+                 smoothScrollToElement(1) //scroll to top of page
+         }
+
+         window.onload = function () {
+             paintAllElementsWithCss();
+         }
+
+         //add keyboard binding
+         document.addEventListener("keydown", keyDownInWindow, false);
+         function keyDownInWindow(e) {
+             if (e.keyCode == 32 || e.keyCode == 40) //if spacebar or down arrow
+             {
+                 scrollDown();
+                 e.preventDefault(); //swallow the event
+             }
+             else if (e.keyCode == 38) //if up arrow is pressed
+             {
+                 scrollUp();
+                 e.preventDefault(); //swallow the event
+             }
+             else if (e.keyCode == 116) //swallow f5 key presses
+             {
+                 e.preventDefault(); //swallow the event
+             }
+         }
+
+         function getBaseUrl() {
+             var pathArray = location.href.split('/');
+             var protocol = pathArray[0];
+             var host = pathArray[2];
+             var url = protocol + '//' + host;
+             return url
+         }
+
+         //call ajax to url and return text
+         function callAjax(url, callback) {
+             var xmlhttp;
+             var currentHostSongName;
+             // compatible with IE7+, Firefox, Chrome, Opera, Safari
+             xmlhttp = new XMLHttpRequest();
+             xmlhttp.onreadystatechange = function () {
+                 if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                     callback(xmlhttp);
+                 }
+             }
+             xmlhttp.open("GET", getBaseUrl() + url, true);
+             xmlhttp.send();
+             return currentHostSongName;
+         }
+
+         function compareHostSongAndCurrentSongAsync_Complete(xmlHttpResult) {
+             //current song name
+             var currentSongName = document.getElementById('SongName').value;
+             //host song name
+             var hostSongName = xmlHttpResult.responseText;
+             //if they are different reload the song
+             if (currentSongName !== hostSongName) {
+                 //reload page and scroll to top of page
+                 window.scroll(0, 0);
+                 location.reload(true);
+             }
+         }
+
+         //compare host song and current song asynchonously
+         function compareHostSongAndCurrentSongAsync() {
+             callAjax('/SongName', compareHostSongAndCurrentSongAsync_Complete);
+         }
+
+     
+    </script>
+    <style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    padding-bottom: 1080px;
+}
+
+@media print {
+    body {
+        padding-bottom: 0px;
+    }
+}
+
+.DisplaySongVerse {
+    padding: 5px;
+    margin-bottom: 20px;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    border: 2px solid #DCDCDC;
+    border-radius: 7px;
+    margin-right: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(15%, #FFFFFF), color-stop(100%, #FFFFFF));
+    background: #FFFFFF; /* Old browsers */
+    background: -moz-linear-gradient(top,#FFFFFF 0%, #FFFFFF 15%, #FFFFFF 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top,#FFFFFF 0%,#FFFFFF 15%, #FFFFFF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,#FFFFFF 0%,#FFFFFF 15%, #FFFFFF 100%); /* IE10+ */
+    background: linear-gradient(to bottom,#FFFFFF 0%,#FFFFFF 15%, #FFFFFF 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
+    display: table;
+    vertical-align: top;
+}
+
+.DisplaySongVerseOffPage {
+    padding: 5px;
+    margin-bottom: 20px;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    border: 2px solid #DCDCDC;
+    border-radius: 7px;
+    margin-right: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(15%, #FFFFFF), color-stop(100%, #FFFFFF));
+    background: #FFFFFF; /* Old browsers */
+    background: -moz-linear-gradient(top,#FFFFFF 0%, #FFFFFF 15%, #FFFFFF 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top,#FFFFFF 0%,#FFFFFF 15%, #FFFFFF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,#FFFFFF 0%,#FFFFFF 15%, #FFFFFF 100%); /* IE10+ */
+    background: linear-gradient(to bottom,#FFFFFF 0%,#FFFFFF 15%, #FFFFFF 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
+    display: table;
+    vertical-align: top;
+}
+
+.DisplaySongName {
+    -webkit-column-break-inside: avoid;
+    font-size: 12px;
+    font-weight: Bold;
+    font-family: "Times New Roman", Courier, monospace;
+    color: #000000;
+    width: 100%;
+}
+
+.DisplayLineVerseHeading {
+    font-size: 10px;
+    font-weight: Italic;
+    font-family: "Times New Roman", Courier, monospace;
+    color: #000000;
+    line-height: 110%;
+}
+
+.DisplayLineVerseLyrics {
+    display: inline-block;
+}
+
+.DisplayLineChord {
+    font-size: 18px;
+    font-weight: Bold;
+    font-family: "Consolas", Courier, monospace;
+    color: #000000;
+}
+
+.DisplayLineLyrics {
+    font-size: 18px;
+    font-weight: Regular;
+    font-family: "Consolas", Courier, monospace;
+    color: #000000;
+}
+
+.DisplayLineVerseNotes {
+    margin-left: auto;
+    margin-right: 0px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: Italic;
+    font-family: "Tahoma", Courier, monospace;
+    color: #000000;
+}
+
+.DisplayBody body {
+    background-color: black;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.header-top-row, .header-middle-row, .header-bottom-row {
+    width: 100%;
+}
+
+.title-left, .title-center, .title-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title-left {
+    text-align: left;
+    width: 42.5%
+}
+
+.title-center {
+    text-align: center;
+    width: 12%
+}
+
+.title-right {
+    text-align: right;
+    width: 42.5%
+}
+
+.button {
+    background-color: #000000;
+    border: 1px solid green;
+    color: white;
+    padding: 61px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 65px;
+    display: block;
+    font-size: 2em;
+}
+
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+.tablet-navigation-up {
+    position: fixed;
+    right: 2px;
+    top: 2px;
+}
+
+.tablet-navigation-down {
+    position: fixed;
+    right: 2px;
+    bottom: 2px;
+}
+
+.songBody {
+    padding-right: 0px;
+}
+    </style>
+
+    <meta charset="utf-8">
+    <title>Пускали мыльные пузыри </title>
+</head>
+<body id="body">
+    <div class="songBody">
+        <input id="SongName" type="hidden" value="Пускали мыльные пузыри" />
+        <div ID="SongElement1" class="DisplaySongName">
+                <div class="header-top-row">
+                    <div class="title-left">Пускали мыльные пузыри</div>
+                    <div class="title-center">Key-</div>
+                    <div class="title-right">I  V1 C V2 V3 V4</div>
+                </div>
+
+            <div class="header-middle-row">
+                <div class="title-left"></div>
+                <div class="title-center">Capo-0</div>
+                <div class="title-right"></div>
+            </div>
+
+        </div>
+            <div ID="SongElement2" class="DisplaySongVerse">
+                <div class="DisplayLineVerseHeading">Interlude </div>
+                <div class="DisplayLineVerseLyrics">
+                            <p class="DisplayLineChord">&nbsp;D&nbsp;&nbsp;&nbsp;F#&nbsp;&nbsp;&nbsp;Hm&nbsp;&nbsp;&nbsp;G</p>
+                </div>
+                    <div class="DisplayLineVerseNotes">
+                        
+                    </div>
+            </div>
+            <div ID="SongElement3" class="DisplaySongVerse">
+                <div class="DisplayLineVerseHeading">Verse 1</div>
+                <div class="DisplayLineVerseLyrics">
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A</p>
+                            <p class="DisplayLineLyrics">Пускали&nbsp;мыльные&nbsp;пузыри,&nbsp;&nbsp;плясали&nbsp;мы&nbsp;до&nbsp;зари&nbsp;в&nbsp;пыли.</p>
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G</p>
+                            <p class="DisplayLineLyrics">Под&nbsp;кроной&nbsp;старого&nbsp;тополя,&nbsp;пели,&nbsp;плясали&nbsp;и&nbsp;топали.</p>
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A</p>
+                            <p class="DisplayLineLyrics">Кострами&nbsp;пахли&nbsp;и&nbsp;ветрами,&nbsp;в&nbsp;святую&nbsp;радость&nbsp;одетые.</p>
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G</p>
+                            <p class="DisplayLineLyrics">Улыбались&nbsp;новому&nbsp;миру&nbsp;мы,&nbsp;&nbsp;струны&nbsp;рвали,&nbsp;дышали&nbsp;рассветами.</p>
+                </div>
+                    <div class="DisplayLineVerseNotes">
+                        
+                    </div>
+            </div>
+            <div ID="SongElement4" class="DisplaySongVerse">
+                <div class="DisplayLineVerseHeading">Chorus </div>
+                <div class="DisplayLineVerseLyrics">
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G</p>
+                            <p class="DisplayLineLyrics">Смотри,&nbsp;взошла&nbsp;звезда,&nbsp;наша&nbsp;с&nbsp;тобою&nbsp;звезда.</p>
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G</p>
+                            <p class="DisplayLineLyrics">И&nbsp;все&nbsp;сердца&nbsp;осветила&nbsp;она,&nbsp;звезда&nbsp;Вифлеемская,</p>
+                            <p class="DisplayLineChord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;A&nbsp;&nbsp;Hm&nbsp;&nbsp;G</p>
+                            <p class="DisplayLineLyrics">Это&nbsp;звезда&nbsp;Христа.</p>
+                </div>
+                    <div class="DisplayLineVerseNotes">
+                        
+                    </div>
+            </div>
+            <div ID="SongElement5" class="DisplaySongVerse">
+                <div class="DisplayLineVerseHeading">Verse 2</div>
+                <div class="DisplayLineVerseLyrics">
+                            <p class="DisplayLineLyrics">Все&nbsp;бородатые&nbsp;взрослые&nbsp;считали&nbsp;нас&nbsp;несерьезными,</p>
+                            <p class="DisplayLineLyrics">Мы&nbsp;превратились&nbsp;опять&nbsp;в&nbsp;детей&nbsp;и&nbsp;танцевали&nbsp;среди&nbsp;полей.</p>
+                            <p class="DisplayLineLyrics">И&nbsp;было&nbsp;ангелами&nbsp;ангелами&nbsp;ангелами&nbsp;небо&nbsp;полно,</p>
+                            <p class="DisplayLineLyrics">В&nbsp;нас&nbsp;благоволение&nbsp;Твоё,&nbsp;в&nbsp;Младенце&nbsp;спасенье&nbsp;моё.</p>
+                </div>
+                    <div class="DisplayLineVerseNotes">
+                        
+                    </div>
+            </div>
+            <div ID="SongElement6" class="DisplaySongVerse">
+                <div class="DisplayLineVerseHeading">Verse 3</div>
+                <div class="DisplayLineVerseLyrics">
+                            <p class="DisplayLineLyrics">И&nbsp;наша&nbsp;песня&nbsp;летела&nbsp;ввысь,&nbsp;мы&nbsp;в&nbsp;этих&nbsp;звуках&nbsp;в&nbsp;одно&nbsp;слились.</p>
+                            <p class="DisplayLineLyrics">Неслись&nbsp;над&nbsp;старыми&nbsp;кленами,&nbsp;и&nbsp;над&nbsp;потоками&nbsp;горными.</p>
+                            <p class="DisplayLineLyrics">Смотри,&nbsp;мы&nbsp;выше&nbsp;седых&nbsp;вершин,&nbsp;по&nbsp;небосводу&nbsp;с&nbsp;тобой&nbsp;бежим.</p>
+                            <p class="DisplayLineLyrics">Войдем&nbsp;мы&nbsp;в&nbsp;город&nbsp;Твой&nbsp;золотой,&nbsp;мы&nbsp;победим&nbsp;этот&nbsp;мир&nbsp;с&nbsp;Тобой.</p>
+                </div>
+                    <div class="DisplayLineVerseNotes">
+                        
+                    </div>
+            </div>
+            <div ID="SongElement7" class="DisplaySongVerse">
+                <div class="DisplayLineVerseHeading">Verse 4</div>
+                <div class="DisplayLineVerseLyrics">
+                            <p class="DisplayLineLyrics">Услышим&nbsp;там&nbsp;голоса&nbsp;царей,&nbsp;&nbsp;и&nbsp;миллионы&nbsp;Твоих&nbsp;людей,</p>
+                            <p class="DisplayLineLyrics">Твоих&nbsp;детей,&nbsp;поют&nbsp;о&nbsp;любви&nbsp;Твоей.</p>
+                            <p class="DisplayLineLyrics">И&nbsp;в&nbsp;этот&nbsp;миг&nbsp;забудем&nbsp;всё&nbsp;горе&nbsp;мы,&nbsp;&nbsp;и&nbsp;от&nbsp;земли&nbsp;оторвемся&nbsp;с&nbsp;корнем&nbsp;мы,</p>
+                            <p class="DisplayLineLyrics">И&nbsp;у&nbsp;престола&nbsp;Царя&nbsp;царей&nbsp;&nbsp;мы&nbsp;будем&nbsp;коронованы.</p>
+                </div>
+                    <div class="DisplayLineVerseNotes">
+                        
+                    </div>
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+    </div>
+</body>
+</html>

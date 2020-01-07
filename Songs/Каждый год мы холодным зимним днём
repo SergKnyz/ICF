@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
   <title>Каждый год мы холодным зимним днём</title>
-  <author />
+  <author>Божье прикосновение</author>
   <presentation>I V1 C1 V2 S C2</presentation>
   <capo>0</capo>
   <key>A</key>
@@ -47,7 +47,7 @@
  В ночь рождения Господа Христа.
 
 [S]
-. A H C#m / A H E / A H G# C#m / F#m-A / F#-Hsus4-C 
+. A H C#m / A H E / A H G# C#m / F#m-A / Hsus4-C 
 
 [C2]
 .    B          C           Am      Dm   
@@ -62,7 +62,7 @@
 </lyrics>
   <ccli />
   <tempo />
-  <time_sig />
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[I]
@@ -76,5 +76,5 @@
 [S]
 
 [C2]</notes>
-  <bbm>100</bbm>
+  <bbm>66</bbm>
 </song>

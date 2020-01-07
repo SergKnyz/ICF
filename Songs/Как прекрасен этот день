@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song>
   <title>Как прекрасен этот день</title>
-  <author />
+  <author>Imprintband</author>
   <presentation>V1 C V2 B</presentation>
   <capo>0</capo>
   <key>E</key>
@@ -47,9 +47,8 @@
 .     Am7         D       Esus4 - E
  И наполнит нас славою Отца!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
   <tempo />
-  <time_sig />
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -60,5 +59,6 @@
  
 [B]
 </notes>
-  <bbm>100</bbm>
+  <bbm>64</bbm>
+  <preferFlats>False</preferFlats>
 </song>

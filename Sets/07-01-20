@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="07-01-20">
+  <slide_groups>
+    <slide_group name="Ангелы поют славу" type="song" presentation="V1 C V2 V3" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Эту песню неба" type="song" presentation="V1 C V2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Радуйся мир Господь грядет" type="song" presentation="V1 V2 V3 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Как прекрасен этот день" type="song" presentation="V1 C V2 B" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Каждый год мы холодным зимним днём" type="song" presentation="I V1 C1 V2 S C2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

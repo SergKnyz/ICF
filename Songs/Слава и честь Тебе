@@ -29,7 +29,7 @@
 .  G 
  Всем сердцем я.</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -42,5 +42,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>130</bbm>
+  <preferFlats>False</preferFlats>
 </song>

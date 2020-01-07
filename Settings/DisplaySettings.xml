@@ -4,7 +4,7 @@
   <ShowNotes>true</ShowNotes>
   <ShowChords>true</ShowChords>
   <ShowLyrics>true</ShowLyrics>
-  <SongOrientation>Вертикально</SongOrientation>
+  <SongOrientation>Vertical</SongOrientation>
   <BackgroundColorHex>#FFFFFF</BackgroundColorHex>
   <VerseHeadingBackgroundColorHex>#FFFFFF</VerseHeadingBackgroundColorHex>
   <PartialVerseHeadingBackgroundColorHex>#FFFFFF</PartialVerseHeadingBackgroundColorHex>
@@ -53,4 +53,20 @@
     <FontStyle>Italic</FontStyle>
     <FontColorHex>#808080</FontColorHex>
   </NoteFormat>
+  <SongMetaDataLayoutTop>
+    <LeftMetadata>{{title}}</LeftMetadata>
+    <MiddleMetadata>Key-{{key}}</MiddleMetadata>
+    <RightMetadata>{{order}}</RightMetadata>
+  </SongMetaDataLayoutTop>
+  <SongMetaDataLayoutMiddle>
+    <LeftMetadata>{{author}}</LeftMetadata>
+    <MiddleMetadata>Capo-{{capo}}</MiddleMetadata>
+    <RightMetadata>{{reference}}</RightMetadata>
+  </SongMetaDataLayoutMiddle>
+  <SongMetaDataLayoutBottom>
+    <LeftMetadata />
+    <MiddleMetadata />
+    <RightMetadata />
+  </SongMetaDataLayoutBottom>
+  <DisplayEachSongSectionOnce>false</DisplayEachSongSectionOnce>
 </DisplayAndPrintSettings>
