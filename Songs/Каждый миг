@@ -4,37 +4,39 @@
   <author />
   <presentation>V1 C B</presentation>
   <capo>0</capo>
-  <key>F</key>
+  <key>G</key>
   <lyrics>[V1]
-.F             B            C
+.G             C            D
  Каждый миг и каждый час Иисус
-.              B
+.              C
  Я живу лишь Тобою.
-.F            B          C  
+.G            C          D
  Ты мой Бог и я Тебе служу
-.F             B         C
+.G             C         D
  Каждый шаг я делаю в Тебе
-.               B
+.               C
  Ты меня направляешь
-.F            B          C B
+.G            C          DC
  Ты мой Бог и я Тебя люблю.
 
 [C]
-. F       Gm7   F/A    B
+. G       Am7   G/H    C
  Милость, благодать и сила
-. F   Gm7   F/A   B    
+. G   Am7   G/H   C
  Вижу я вокруг Твои дела
-.   F    Gm7   F/A B 
+.   G    Am7   G/HC
  Твоя любовь пленила
-.F     Gm7     F/A     B      F
+.G     Am7     G/H     C      G
  И в Тебе мой Бог вся жизнь моя
 
 [B]
-. F C Csus B
+. G  D  Dsus  C
  На-на-на-на-на-на-на.
+
 </lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -43,5 +45,6 @@
  
 [B]
 </notes>
-  <bbm>100</bbm>
+  <bbm>104</bbm>
+  <preferFlats>False</preferFlats>
 </song>

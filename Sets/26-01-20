@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="26-01-20">
+  <slide_groups>
+    <slide_group name="Не плоть и кровь открыли мне Христа" type="song" presentation="V1 C V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="По преданью отцов" type="song" presentation="I V1 C V2 SOLO V3 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Поклонюсь Тебе Иисус" type="song" presentation="V1 V2  C" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Разломи мое сердце на части" type="song" presentation="V1 P C V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Иду за Тобой" type="song" presentation="V1 C V2 E" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Пусть сердце моё будет чисто" type="song" presentation="V C " path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

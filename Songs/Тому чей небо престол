@@ -18,7 +18,7 @@
 .   B               C
  И сила, и слава вовеки!</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V]
@@ -28,5 +28,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>76</bbm>
+  <preferFlats>False</preferFlats>
 </song>

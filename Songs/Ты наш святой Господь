@@ -28,8 +28,8 @@
  
 
 [C]
-.     C7      F G    Em Am
- Мы взываем:Святый Святый 
+.     C7       F G    Em Am
+ Мы взываем: Святый Святый 
 . F      C     C      G     C-G
  Наш Господь, Бог Всевышний. 
 .     G        F G    Em Am 
@@ -37,6 +37,8 @@
 . Dm     G      C 
  Наш Всевышний Бог.</lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -49,6 +51,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>76</bbm>
   <preferFlats>False</preferFlats>
 </song>

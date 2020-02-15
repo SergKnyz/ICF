@@ -2,13 +2,13 @@
 <song>
   <title>Кто же я</title>
   <author>Hillsong</author>
-  <presentation>V1 C V2 C B </presentation>
+  <presentation>V1 C1 V2 C2 B </presentation>
   <capo>0</capo>
   <key>G</key>
   <lyrics>[V1]
-.G                Em            D      G
+.G                              Em  D  G
  Кто же я что Всевышний Царь меня призвал.
-.G                       Em   D   C
+.G                           Em  D  C
  Я блуждал но любовь Твоя, меня нашла.
 .      Em D  C
  О, меня нашла.
@@ -16,13 +16,13 @@
 [C1]
 .        G          D
  Дал свободу мне Иисус навек
-.     Em   D   C  G
+.     Em D C      G
  Я дитя Царя знаю я.
 
 [V2]
-.G              Em            D    G
+.G                          Em  D  G
  Я свободен, искуплен Им, Он милостив.
-.G                   Em        D           C
+.G                                   Em  D  C
  Был я в рабстве греха но Ты, жизнью заплатил
 .     Em  D C
  За мои грехи.
@@ -38,14 +38,13 @@
  Я знаю кто я в Тебе.
 
 [C2]
- 
-.        G                D
+.        G          D
  Дал свободу мне Иисус Навек
-.      Em   D   C     G
+.     Em D C      G
  Я дитя Царя знаю я.
-.       G                        D
+.       G                   D
  В Доме есть всегда место для меня
-.     Em   D   C  G
+.     Em D C      G
  Я Дитя Царя знаю я.
 
 </lyrics>

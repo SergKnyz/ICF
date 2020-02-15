@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="12-01-20">
+  <slide_groups>
+    <slide_group name="Вся земля полна славы и хвалы" type="song" presentation="V1 C1 V2  S C2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="У той песни нет конца" type="song" presentation="I V1 C V2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Ты моя слава" type="song" presentation="C V1 P V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Отец наш небесный" type="song" presentation="I V1 C1 V2 C2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="ИХ мой Спаситель и Бог" type="song" presentation="V1 V2 C B V3" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Хвала Тебе наш Господь" type="song" presentation="V C B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

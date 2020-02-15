@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="16-02-20">
+  <slide_groups>
+    <slide_group name="Подули ветры разлились реки (упрощенно)" type="song" presentation="I V1 C V2 E " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Аллилуйя cлава Богу" type="song" presentation="I V C B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Кто тьму разрушил" type="song" presentation="V1 C V2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="В сиянии Царя" type="song" presentation="V1 C V2 B" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Кто же я" type="song" presentation="V1 C1 V2 C2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Океан Божьей любви" type="song" presentation="V1 C1 V2 V3 C2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Что сказать Боже" type="song" presentation="V1 C V2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

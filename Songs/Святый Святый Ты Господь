@@ -33,7 +33,8 @@
 .      D        Esus E7 A
  «Аллилуйя! Наш Царь и Бог!»</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <tempo>Slow</tempo>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -46,5 +47,6 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>68</bbm>
+  <preferFlats>False</preferFlats>
 </song>
