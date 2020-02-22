@@ -4,34 +4,36 @@
   <author />
   <presentation>V1 P C</presentation>
   <capo>0</capo>
-  <key>A</key>
+  <key>C</key>
   <lyrics>[V1]
-.A         E7     D-E7   A
+.C         G7     F  G7  C
  Святый, Святый, Ты, Господь,
-. D            A7     Hm  A-E7
+. F            C7     Dm  C  G7
  Полна вся земля славою Твоей.
-. A       E7   D-E-A
+. C       G7   F  G  C
  Пусть народы воспоют
-. D        A           C#m
+. F        C           Esus  E7
  Честь и хвалу лишь Тебе!
  
 
 [P]
-.   F#m     H7    E   A
+.   Am      D7    G   C
  В нас, Господь, воссияй,
-.       D     Hm    E7 (C#7)
+.       F     Dm    G7  (E7)
  чтоб увидел мир Тебя!
  
 
 [C]
-. A          F#m D
+. C          Am  F
  Восклицают небеса:
-.  Hm            E7
+.  Dm            G7
  «Как прекрасен Бог наш!»
-.  C#7       F#m
+.  E7        Am
  Вселенная поёт:
-.      D        Esus E7 A
- «Аллилуйя! Наш Царь и Бог!»</lyrics>
+.      F        Gsus  G7  C  (Am)
+ «Аллилуйя! Наш Царь и Бог!»
+
+</lyrics>
   <ccli />
   <tempo>Slow</tempo>
   <time_sig>2/4</time_sig>

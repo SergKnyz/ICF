@@ -49,6 +49,8 @@
 
 </lyrics>
   <ccli />
+  <tempo>Slow</tempo>
+  <time_sig>6/8</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -62,5 +64,5 @@
 [B]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>60</bbm>
 </song>
