@@ -38,15 +38,19 @@
 
 [B]
 .   C    Dm            B
- И не понять мне никогда
+ И не забыть мне никогда
 .      C        Dm            B
  Как взят мой грех ценой креста.
  
 
 [B2]
-.F              C       Dm B
- Имя Твоё призову и спасусь.</lyrics>
+.F              C       DmB
+ Имя Твоё призову и спасусь.
+
+</lyrics>
   <ccli />
+  <tempo>Moderate</tempo>
+  <time_sig>4/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -65,5 +69,5 @@
  
 
 </notes>
-  <bbm>100</bbm>
+  <bbm>70</bbm>
 </song>
