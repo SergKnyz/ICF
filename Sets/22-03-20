@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set name="22-03-20">
+  <slide_groups>
+    <slide_group name="Мы будем славить Имя Твоё" type="song" presentation="V1 C B B2 V2 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Ты любовь и счастье" type="song" presentation="V1 C V2 B " path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Воспойте хвалу Царю Царей" type="song" presentation="V1 V2 C V3 B C2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Ты нужен мне" type="song" presentation="I C P B1 B2 B3" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Когда нет надежд" type="song" presentation="I V1 P C1 V2 B C2" path="OpenChords\" transition="0" openchords-sub-folder="" />
+    <slide_group name="Возвысьте голос в песне" type="song" presentation="V1 C V3 V4 V5 V6 " path="OpenChords\" transition="0" openchords-sub-folder="" />
+  </slide_groups>
+</Set>

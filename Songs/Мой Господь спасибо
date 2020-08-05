@@ -4,43 +4,45 @@
   <author />
   <presentation>I V1 C</presentation>
   <capo>0</capo>
-  <key>A</key>
+  <key>G</key>
   <lyrics>[I]
-.F#m  A  F#m  A
+.Em   G  Em   G
 
 [V1]
-.A                D   A/C#
+.G                C   G/H
  Мой Господь, спасибо.
-.            D    E  A
+.            C    D  G
  За меня Ты жизнь отдал.
-.        A/G#   F#m
+.        G/F#   Em
  Все грехи на крест забрал,
-.   E        D
+.   D        C
  Любовь мне дал,
-.   Hm      A/G# E7
+.   Am      G/F# D7
  Излил всю благодать.
-.              D   A/C#
+.              C   G/H
  За любовь спасибо,
-.              D   E A
+.              C   DG
  За раны на Твоих руках.
-.        A/G# F#m          E  D
+.        G/F# Em           D  C
  Тобой омыта жизнь моя и знаю я,
-.          Hm     A/C#  E
+.          Am     G/H   D
  Ты навсегда простил меня.
 
 [C]
-.A           E/G# Hm   A/C#    D
+.G           D/F# Am   G/H     C
  Агнец в небесах вознесен на трон.
-. E   E/D   A/C# D       Hm    A/C# E
+. D   D/C   G/H  C       Am    G/H  D
  Коронован на века, в победе правит Он!
-.  A          E/G# Hm    A/C#  D
+.  G          D/F# Am    G/H   C
  Принял всю хвалу Божий Сын Иисус.
-. E     E/D    A/C#   D  E
+. D     D/C    G/H    C  D
  Дар небесный был распят.
-.             Hm  A/C#  D
+.             Am  G/H   C
  Агнец в небесах (небесах)
-.                  Hm  A/C#  D  (E7)
- Достоин честь принять (честь принять)!</lyrics>
+.                  Am  G/H   C  (D7)
+ Достоин честь принять (честь принять)!
+
+</lyrics>
   <ccli>157</ccli>
   <time_sig>4/4</time_sig>
   <copyright />

@@ -25,7 +25,7 @@
 .  G         D          Em  H7 Em H7
  Вознесу фимиам Тебе, Царь Машиях</lyrics>
   <ccli />
-  <preferFlats>False</preferFlats>
+  <time_sig>2/4</time_sig>
   <copyright />
   <hymn_number />
   <notes>[V1]
@@ -33,5 +33,6 @@
 [V2]
  
 </notes>
-  <bbm>100</bbm>
+  <bbm>80</bbm>
+  <preferFlats>False</preferFlats>
 </song>
